@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="iniciosesion.css">
+    <title>Junta-Extremadura.es</title>
+</head>
+<body>
+
+    <div class="menu">
+        <nav class="fijada">
+            <ul>
+                <li><a href="index.html"><img class="fotomen" alt="logo JuntaEx" src="https://www.juntaex.es/o/juntaex-theme/images/logo.png">
+                    </a></li>
+                <li id="iniciar"><a href="index.html">Volver</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="container">
+            
+        <header>
+            <h1>Junta de Extremadura</h1>
+        </header>
+
+        
+
+        <nav>
+        
+        </nav>
+
+        <div class ="clearfix"></div>
+
+        <section id="content">
+
+        <!-- Aqui lo que hago es poner los diferentes articulos que tendrá la pagina y pinchando en cada uno de los enlaces te llevará
+        al tema al que has pinchado redirigiendote a otra pagina web-->
+
+        
+
+        <div class="grid-layout">
+            <form action="inicio-sesion" method="post">
+            <div class="caja"><p>Inicar Sesión</p><br>
+                <ul>
+                    <li>
+                        <label for="nombre">Usuario:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </li>
+                        <br>
+                    <li>
+                        <label for="nombre">Correo electrónico:</label>
+                        <input type="text" id="correo" name="correo" required>
+                    </li>
+                        <br>
+                    <li>
+                        <label for="nombre">Contraseña:</label>
+                        <input type="password" id="contraseña" name="contraseña" required>
+                    </li>
+                        <br>
+                    <li class="boton">
+                        <button type="submit"><a href="cuenta.html">Acceder</button></a>
+                      </li>
+                </ul>
+            </form>
+        </div>
+        </section>
+
+
+        <div class ="clearfix"></div>
+
+        <!--Footer sirve para crear el pie de pagina de la seccion mas cercana-->
+        <footer>
+            Sergio Sanz García &copy; 2022
+        </footer>
+
+    </div>
+</body>
+</html>
