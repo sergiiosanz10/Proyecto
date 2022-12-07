@@ -1,0 +1,219 @@
+/*Aqui selecciono todos los elementos de la pagina para resetear varios estilos que vienen por defecto*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Aqui le aplico un fondo al body y una fuente de letras*/
+body {
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*Aqui aplico a la cabecera un fondo verde con una altura y anchura, con una aliniacion al centro, color de letra blanco y un borde por debajo*/
+header {
+
+    background: green;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    border-bottom: 30px solid white;
+    margin-top: 2%;
+
+}
+
+/*Aqui aplico a la barra de navegación que los elementos floten a la izquierda con un margen y una linea con altura de 25 pixeles*/
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 25px;
+
+}
+
+/* Aqui sigo con la barra de navegación y le aplico un fondo negro con una altura y un borde abajo blanco*/
+nav {
+
+    background: black;
+    height: 40px;
+    border-bottom: 1px solid white;
+
+}
+
+/*Aqui estoy con los enlaces de la barra de navegación, que los pongo de color blanco simplemente para que se vean al tener el fondo negro*/
+a {
+    color:white;
+}
+
+/*Aqui aplico a la barra lateral que flote a la izquierda, que el ancho calcule el 20% menos 20 pixeles, con un minimo de pixeles, le pongo un 
+fondo verde, un espacio a la izquierda, otro a la derecha y otro arriba*/
+aside {
+
+    float: left;
+    width: calc(20% - 20px);
+    min-height: 500px;
+    background: green;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+    margin-top: 5%;
+    box-shadow: 5px 5px 5px;
+    border: 2px solid black
+}
+
+aside h2 {
+    text-align: center;
+    color:white;
+}
+
+aside form {
+    text-align: center;
+    margin-top: 5%;
+}
+
+input {
+    border: 1px solid black;
+    height: 30px;
+    width: 80%;
+}
+
+#Buscar {
+    border: 1px solid black;
+    height: 30px;
+    width: 50%;
+    margin-top: 2%;
+}
+
+/*-------------------------------*/
+
+.caja {
+    border: 2px solid green;
+    background-color: ghostwhite;
+    text-align: center;
+    padding: 20px;
+    color:green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin:1%;
+    border-radius: 20px;
+    text-align: inherit;
+    box-shadow: 3px 3px 2px;
+}
+
+
+.caja2 {
+    border: 3px solid green;
+    background-color: ghostwhite;
+    text-align: center;
+    padding: 20px;
+    color:green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin:1%;
+    border-radius: 20px;
+    text-align: inherit;
+    width: 75%;
+    height: 60px;
+
+}
+
+.caja a {
+    color:green;
+}
+
+.textoc {
+    color:black;
+    text-align: -webkit-match-parent;
+}
+
+.grid-layout {
+    margin: 15px;
+    height: 650px;
+    width: 650px;
+    display: grid;
+    grid-template-rows: 20%;
+    grid-template-areas:
+        "cabecera cabecera"
+        "menu menu"
+        "contenido barraLateral"
+        "piePagina piePagina";
+    min-height: 204px;
+}
+
+#content {
+
+    float: left;
+    width: 48%;
+    min-height: 500px;
+    padding: 40px;
+    margin-left: 25%;
+
+}
+
+#container {
+    width: 100%;
+    margin: 0px auto;
+    border: 1px solid black;
+
+
+}
+
+/*Aqui aplico al pie de pagina un color de fondo, con color de letra blanco, una altura y una linea con una altura de 50 pixeles*/
+footer {
+
+    background: green;
+    color:white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+
+}
+
+/*Aqui hago que al flotar los elementos los de abajo se queden en su sitio*/
+.clearfix {
+
+    clear: both;
+
+}
+
+
+p:first-child {
+    margin-right: 10%;
+    text-align: center;
+    color: black;
+}
+
+
+.fijada {
+    position: fixed;
+    width:100%;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+    z-index: 10;
+  }
+  
+  .fotomen{
+      width: 40%;
+      margin-top: 1%;
+  }
+  
+  .fijada a {
+      color:black;
+      display: block;
+      text-decoration: none;
+  }
+  
+  nav ul li:hover {
+      background: #3ead47;
+    }
+  
+  #iniciar {
+  
+      float:right;
+  
+  }
